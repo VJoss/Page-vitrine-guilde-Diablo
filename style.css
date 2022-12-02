@@ -1,0 +1,272 @@
+@font-face {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    Font-family:'Abril Fatface';
+    src: url('TPcréationsite/polices/AbrilFatface-Regular.otf')format('truetype');
+    font-family:'Diablo';
+    src: url('TPcréationsite/polices/DIABLO_H.TTF')format('truetype');
+    font-family:'Diablo2';
+    src: url('TPcréationsite/polices/DIABLO_L.TTF')format('truetype');
+    font-weight: normal;
+    font-style:normal;
+}
+section,footer
+{
+    color: rgba(184, 184, 177, 0.658);
+}
+body
+{   background: url('TPcréationsite/images/fond_diablo2.jpg');
+    background-position: center;
+    background-size:auto;
+}
+#bloc_page
+{
+    width:900px;
+    margin:auto;
+}
+h1
+{
+    font-weight: normal;
+    text-transform: uppercase;
+}
+header
+{
+    background: url('TPcréationsite/images/separateur3.png'); 
+    display: flex;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-top: 25px;
+}
+p
+{
+    font-family:Arial, Helvetica, sans-serif;
+}
+#titre_page
+{
+    display:flex;
+    flex-direction:column;
+    padding-top: 40px;
+}
+#logo
+{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+#logo img
+{
+    width: 200px;
+    height: 120px;
+    margin:-90px 10px -50px 80px;
+
+}
+header h1
+{
+    font-family:'Diablo',Arial, Helvetica, sans-serif;
+    font-size: 3.1em;
+    font-weight: normal;
+    margin: 0px 0px 90px 150px;
+    color: #9a7342;
+}
+header h2
+{
+    font-size: 1.1em;
+    font-weight: normal;
+    margin: -30px 0px 70px 90px;
+    color: antiquewhite;
+}
+nav ul
+{
+    list-style-type: none;
+    display:flex;
+    margin: 155px 45px 70px 0px;
+}
+nav li
+{
+    margin-right:10px;
+
+}
+nav a
+{
+    font-size:1.3em;
+    color:#9a7342;
+    padding-bottom:3px;
+    text-decoration:none;
+}
+nav a:hover
+{
+    color: white;
+    border-bottom: 3px solid #9a7342;
+}
+#banniere_image
+{
+    margin-top:-40px;
+    height:200px;
+    border-radius:5px;
+    background: url('TPcréationsite/images/banniere.jpg') no-repeat;
+    position: relative;
+    box-shadow:0px 4px 4px rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+#banniere_description
+{
+    position: absolute;
+    bottom:0;
+    border-radius:0px 0px 5px 5px;
+    width:100%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left:4px;
+    background-color: rgba(31, 30, 28, 0.719);
+    color: white;
+    font-size: 0.8em;
+}
+.bouton_gris
+{
+    height:25px;
+    position:absolute;
+    right:5px;
+    bottom:5px;
+    background: url('TPcréationsite/images/fond_degraderouge3.png') repeat-x;
+    border:1px solid #313131d2;
+    border-radius:5px;
+    font-size:1.3em;
+    text-align:center;
+    color:#9a7342;
+    text-decoration:none;
+}
+.bouton_gris img
+{
+    border:0;
+}
+
+/*corps */
+
+section
+{
+     display:flex;
+     margin-bottom: 20px;
+}
+
+article,aside
+{
+    text-align: justify;;
+}
+
+article
+{
+    margin-right: 20px;
+    flex: 3;
+    background: url(TPcréationsite/images/bordures.png);
+    background-repeat: no-repeat;
+    background-size: 1265px 712px;
+}
+.logo_début
+{
+    vertical-align: text-bottom;
+    height: 60px;
+    width: 50;
+    margin-left: 45px;
+}
+article h1
+{
+    font-size: 3em ;
+    margin:35px 0px 0px 0px ;
+    color:#9a7342;
+}
+
+article p
+{
+    font-size: 0.8em;
+    padding:0px 65px 0px 25px;
+    text-align: center;
+    color: #d4d6d2;
+}
+.grouped2
+{
+    text-align: center;
+    padding: 15px 0px 30px 200px;
+}
+
+aside
+{
+    flex: 1.2;
+    position: relative;
+    background: url(TPcréationsite/images/borduresaside.png);
+    background-repeat: no-repeat;
+    background-size:555px 710px;
+    padding:10px;
+    color:#d4d6d2;
+    font-size: 0.9em;
+}
+aside h1
+{
+    font-family:'Diablo2',Arial, Helvetica, sans-serif;
+    color:#9a7342;
+    font-size: 1.1em;
+    margin: 20px 5px 0px 35px;
+}
+aside p
+{
+    text-align: center;
+    font-size: 0.9em ;
+    margin:10px 12px 20px 12px;
+}
+#fleche_bulle
+{
+    position:absolute;
+    top: 100px;
+    left:-29px;
+}
+#gif_zemmours
+{
+    text-align:center;
+    margin-right: 10px;
+}
+#gif_zemmours img
+{
+    border:1px solid #9a7342;
+    margin-right: 15px;
+}
+aside img
+{
+    margin: 0px 0px 30px 20px ;
+}
+
+/*footer */
+
+footer h1
+{
+    display: flex;
+    align-items: flex-start;
+    font-size:3em;
+    margin: 0px 0px 10px 550px;
+    color: #9a7342;
+
+
+    
+}
+#screen
+{
+    background: url('TPcréationsite/images/borduresfooter.png');
+    background-repeat:space;
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 25px;
+
+}
+#screen img
+{
+    margin: 0px 30px 0px 30px;
+
+    
+}
+@media all and (max-width: 1024px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+}
